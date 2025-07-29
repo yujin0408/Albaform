@@ -1,5 +1,10 @@
-import Image from "next/image";
+import Button from "@/components/common/Button";
 
 export default function Home() {
-  return <div>랜딩페이지</div>;
+  return (
+    <div>
+      <Button>버튼</Button>
+      <Button buttonType="outline">라인</Button>
+    </div>
+  );
 }
